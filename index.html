@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html class="no-js">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <style>
+            body {
+                padding-top: 50px;
+                padding-bottom: 20px;
+            }
+        </style>       
+        
+    </head>
+    <body>
+        <nav class="navbar navbar-inverse navbar-fixed-top new-navbar" role="navigation">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar"> 
+                        <span class="sr-only">Toggle navigation</span> 
+                        <span class="icon-bar"></span> 
+                        <span class="icon-bar"></span> 
+                        <span class="icon-bar"></span> 
+                    </button>
+                    <div class="navbar-brand">
+                        <span class="label label-danger">Youtube search!</span>
+                    </div>          
+                </div>
+                <div id="navbar" class="navbar-collapse collapse">
+                    <div class="navbar-form navbar-right" >            
+                        <div class="form-group">
+                            <input id="search-input" type="text" placeholder="type something..." class="form-control">
+                            <button id="search-btn" type="submit" class="btn btn-primary">Search</button>       
+                            <button id="signout-btn" type="submit" class="btn btn-danger">Sign out</button>            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <div class="container">
+            <div class="results container">
+                <span id="response-title"></span>
+                <p>
+                    <span id="response-total"></span>
+                    <span id="response-page" style="text-align: right;"></span>
+                </p>
+                <br/>
+                <a id="prev-page" href="#">&larr; previous page</a>
+                <a id="next-page" href="#">next page &rarr;</a>
+                <br/>
+                <br/>
+                <span id="response" style="clear: both;"></span>
+            </div> 
+            <footer>
+                <br/>
+                <hr>
+                <p>&copy; Alexander Wong 2015</p>
+            </footer>
+        </div>  
+    </body>
+    
+    <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.1.min.js"><\/script>')</script>
+    <script src="js/vendor/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>  
+    <script src="https://apis.google.com/js/client.js?onload=onClientLoad" type="text/javascript"></script>
+</html>

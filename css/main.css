@@ -1,0 +1,135 @@
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+#search-input {
+	width: 500px;
+}
+
+#next-page {
+  float: right;
+}
+
+#prev-page {
+  float: left;
+}
+
+.row {
+  margin: 0;
+}
+
+.results {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.result {
+  color: #222;
+  background-color: #EEEEEE;
+  border-spacing: 2px;
+  border-color: gray;
+  font-family: arial,sans-serif;
+  border-bottom: 1px #e5e5e5 solid;
+}
+
+.current .item {
+  background-color: #FF8080;
+}
+
+.mouseover .item {
+  background-color: #3366FF;
+  color: #FFFFFF;
+}
+
+.mouseover .item a {
+  color: #ff4444;
+}
+
+.item {
+  cursor: pointer;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  
+}
+
+.item .source {
+  margin-left: 20px;
+}
+
+.item .title {
+  font-weight: bold;
+}
+
+.item .pubdate {
+  margin-right: 20px;
+  text-align: right; 
+}
+
+.item .channel {
+  font-size: 12px;
+}
+.description {
+  display: none;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: #FFD9D9;
+}
+
+.description h1 {
+  font-size: 30px;
+}
+
+.signin-form {
+  max-width: 400px;
+  padding: 0px;
+  margin: 0 auto;
+}
+
+.signin-form .form-control {
+  position: relative;
+  height: auto;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.signin-form .panel-heading {
+  font-size: 25px;
+}
+
+.youtube, .movie, .calendar {
+  display: inline-block;
+  background-image: url(../img/spritebox-sprite.png);
+  background-repeat: no-repeat
+}
+
+.youtube {
+  background-position: -120px -320px;
+  height: 28px;
+  width: 36px;
+}
+
+.movie {
+  background-position: -140px -36px;
+  height: 32px;
+  width: 40px
+}
+
+.calendar {
+  background-position: -72px -52px;
+  height: 32px;
+  width: 44px
+}
+
+
+
+
+
+
+
+
+
+
+
+

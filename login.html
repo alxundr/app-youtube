@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title></title>
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/main.css">
+        <style>
+            body {
+                 padding-top: 40px;
+                 padding-bottom: 40px;
+                 background-color: #eee;
+            }
+        </style>
+    </head>
+    <body onload="initLogin()">
+        <div class="container">
+            <div class="panel panel-danger signin-form">
+                <div class="panel-heading">
+                    <div class="youtube"></div>Youtube search! 
+                </div>
+                <div class="panel-body">
+                    <div class="input-group" style="margin-bottom: 25px">
+                        <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+                        <input type="text" id="username" class="form-control" placeholder="Username">
+                    </div>    
+                    <div class="input-group" style="margin-bottom: 25px">
+                        <span class="input-group-addon"><i class="glyphicon glyphicon-lock"></i></span>
+                        <input type="password" id="password" class="form-control" placeholder="Password">
+                    </div>
+                    <span id="result"></span>
+                    <div class="form-group">
+                        <!-- <div class="col-sm-6"></div> -->
+                        <div class="col-sm-12">
+                            <button class="btn btn-lg btn-primary btn-block" type="submit" id="btn">Sign in</button>
+                        </div>
+                        <!-- <div class="col-sm-6"></div> -->
+                    </div>
+                </div>
+            </div>
+        </div> <!-- /container -->
+    </body>
+    <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.1.min.js"><\/script>')</script>
+    <script src="js/vendor/bootstrap.min.js"></script>
+    
+    <script src="js/login.js"></script>
+</html>
